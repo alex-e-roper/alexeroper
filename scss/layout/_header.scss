@@ -1,0 +1,17 @@
+//header styles
+
+//variable modules
+@use '../abstracts/colors' as c;
+@use '../abstracts/fonts' as f;
+
+.header {
+    background-color: c.$blue;
+
+    &__heading {
+        font-family: f.$font-secondary;
+    }
+
+    &__menu {
+        font-family: f.$font-primary;
+    }
+}

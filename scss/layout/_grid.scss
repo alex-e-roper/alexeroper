@@ -1,0 +1,22 @@
+//css grid template
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    &__skills {
+        
+    }
+
+    &__resume {
+
+    }
+
+    &__web {
+
+    }
+
+    &__art {
+
+    }
+}

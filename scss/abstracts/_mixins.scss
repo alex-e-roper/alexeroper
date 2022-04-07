@@ -1,0 +1,17 @@
+//sass mixins
+
+//variable modules
+@use 'colors' as c;
+@use 'fonts' as f;
+
+//Left box in grid
+@mixin left-grid-box {
+    background-color: c.$greenblue;
+    box-shadow: 1rem 1rem c.$grey;
+}
+
+//Right box in grid
+@mixin right-grid-box {
+    background-color: c.$greenblue;
+    box-sizing: -1rem 1rem c.$grey;
+}

@@ -1,0 +1,26 @@
+//landing page styles
+
+//abstracts modules
+@use '../abstracts/colors' as c;
+@use '../abstracts/fonts' as f;
+@use '../abstracts/mixins' as m;
+
+.content {
+    background-color: c.$blue;
+
+    &__skills {
+        @include m.left-grid-box;
+    }
+
+    &__resume {
+        @include m.right-grid-box;
+    }
+
+    &__web {
+        @include m.left-grid-box;
+    }
+
+    &__art {
+        @include m.right-grid-box;
+    }
+}

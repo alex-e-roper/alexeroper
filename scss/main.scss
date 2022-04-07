@@ -1,0 +1,26 @@
+//main sass sheet
+
+//abstracts modules
+@use 'abstracts/colors';
+@use 'abstracts/fonts';
+@use 'abstracts/mixins';
+
+//base
+@use 'base/reset';
+
+//components
+@use 'components/menu';
+
+//layout
+@use 'layout/header';
+@use 'layout/grid';
+@use 'layout/footer';
+
+//pages
+@use 'pages/landing-page';
+
+//themes
+
+//vendors
+@use 'vendors/google-fonts';
+@use 'vendors/bootstrap.min.css';
