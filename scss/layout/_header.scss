@@ -1,17 +1,28 @@
 //header styles
 
 //variable modules
-@use '../abstracts/colors' as c;
-@use '../abstracts/fonts' as f;
+@use '../abstracts/colors'as c;
+@use '../abstracts/fonts'as f;
 
 .header {
     background-color: c.$blue;
+    display: flex;
 
     &__heading {
         font-family: f.$font-secondary;
+        width: 50%;
+        padding: 1rem;
     }
 
     &__menu {
         font-family: f.$font-primary;
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
     }
 }
+
+// a {
+//     color: c.$black !important;
+//     font-size: 2rem;
+// }

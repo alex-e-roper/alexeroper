@@ -2,21 +2,27 @@
 
 .content {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(8, 30vh);
+    gap: 4rem;
 
     &__skills {
-        
+        grid-column: 1 / span 2;
+        grid-row: 1 / span 2;
     }
 
     &__resume {
-
+        grid-column: 4 / span 2;
+        grid-row: 2 / span 2;
     }
 
     &__web {
-
+        grid-column: 2 / span 2;
+        grid-row: 4 / span 2;
     }
 
     &__art {
-
+        grid-column: 1 / span 2;
+        grid-row: 6 / span 2;
     }
 }
